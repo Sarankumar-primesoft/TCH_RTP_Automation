@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+  <configuration>
+
+    <!-- Theme settings -->
+    <theme>STANDARD</theme>
+    <encoding>UTF-8</encoding>
+    <protocol>HTTPS</protocol>
+    <timelineEnabled>true</timelineEnabled>
+    <enableOfflineMode>false</enableOfflineMode>
+    <thumbnailForBase64>false</thumbnailForBase64>
+
+    <!-- Report Title & Name -->
+    <documentTitle>PAYAPT TCH Server Automation Report</documentTitle>
+    <reportName>PAYAPT TCH Server Automation Report</reportName>
+	<logo>Configuration/download.png</logo>
+
+    <!-- Timestamp format -->
+    <timeStampFormat>MMM dd, yyyy HH:mm:ss</timeStampFormat>
+
+    <!-- System Info for Browser and OS -->
+    <systemInfo>
+      <info name="OS" value="${os.name}" />
+      <info name="Java Version" value="${java.version}" />
+      <info name="Browser" value="Chrome 120.0" />
+      <info name="Executed By" value="QA Team" />
+    </systemInfo>
+
+    <!-- Enable Screenshot Thumbnails -->
+    <thumbnailForBase64>false</thumbnailForBase64>
+<!-- Custom Logo & Styling -->
+<css>
+  <![CDATA[
+    /* Override Extent's default logo styling */
+    .header .vheader .nav-logo,
+    .nav-logo {
+      content: url('file://C:/Users/DELL/git/Payapt_DevServer/com.payapt.dev/Configuration/logo.png');
+      max-height: 50px;
+      width: auto;
+      padding: -1px 20px;
+      line-height: 0;
+      float: left;
+      object-fit: contain;
+      transition: all .2s ease;
+      -webkit-transition: all .2s ease;
+      -moz-transition: all .2s ease;
+      -o-transition: all .2s ease;
+      -ms-transition: all .2s ease;
+    }
+
+    /* Optional: expand header container height */
+    .vheader {
+      height: 60px !important;
+      display: flex;
+      align-items: center;
+    }
+.header .vheader .nav-left, .header .vheader .nav-right {
+    position: relative;
+    list-style: none;
+    padding-right: 337px;
+    margin-bottom: 0px;
+}
+    .report-name {
+      text-align: center;
+      width: 100%;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .test-name {
+      font-weight: bold;
+      color: #007bff;
+    }
+
+    .status-pass {
+      background-color: #28a745 !important;
+      color: white !important;
+    }
+
+    .status-fail {
+      background-color: #dc3545 !important;
+      color: white !important;
+    }
+  ]]>
+</css>
+
+
+  </configuration>
+</extentreports>

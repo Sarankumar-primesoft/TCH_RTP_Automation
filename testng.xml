@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="IndividualFlows.Reports_AccountReportingFedwire"/>
+      <class name="IndividualFlows.Reports_RetrivalRequestFednow"/>
+      <class name="IndividualFlows.Reports_BroadcastMessagesFedwire"/>
+      <class name="IndividualFlows.Reports_AccountReportingFednow"/>
+      <class name="IndividualFlows.FedwireBatchTest"/>
+      <class name="IndividualFlows.Reports_ParticipantFileFednow"/>
+      <class name="IndividualFlows.Fednow_ExecutionsSummary"/>
+      <class name="IndividualFlows.Fedwire_ExecutionsSummaryTest"/>
+      <class name="IndividualFlows.Reports_BroadcastMessagesFednow"/>
+      <class name="IndividualFlows.FednowBatchTest"/>
+      <class name="IndividualFlows.Reports_ParticipantFileFedwire"/>
+      <class name="IndividualFlows.Reports_RetrivalRequestFedwire"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
