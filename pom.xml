@@ -66,7 +66,7 @@
 				<version>3.0.0-M5</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>IndividualFlowFednow_Fedwire.xml</suiteXmlFile>
+						<suiteXmlFile>IndividualFlow.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
