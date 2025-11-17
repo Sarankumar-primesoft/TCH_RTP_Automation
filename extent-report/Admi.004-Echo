@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Message xmlns="urn:tch"
+         xmlns:head="urn:iso:std:iso:20022:tech:xsd:head.001.001.01"
+         xmlns:re="urn:iso:std:iso:20022:tech:xsd:admn.006.001.01">
+<AppHdr>
+<head:Fr>
+<head:FIId>
+<head:FinInstnId>
+<head:ClrSysMmbId>
+<head:MmbId>021150706P1</head:MmbId>
+</head:ClrSysMmbId>
+</head:FinInstnId>
+</head:FIId>
+</head:Fr>
+<head:To>
+<head:FIId>
+<head:FinInstnId>
+<head:ClrSysMmbId>
+<head:MmbId>021040079P1</head:MmbId>
+</head:ClrSysMmbId>
+</head:FinInstnId>
+</head:FIId>
+</head:To>
+<head:BizMsgIdr>B20251113021150706P170600000006659</head:BizMsgIdr>
+<head:MsgDefIdr>admn.006.001.01</head:MsgDefIdr>
+<head:CreDt>2025-11-13T07:20:53-05:00</head:CreDt>
+<head:Sgntr>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<Reference URI="">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<Transform Algorithm="http://www.w3.org/2006/12/xml-c14n11"/>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<DigestValue>nmyhTI/xkXBI7KWaWnriV9PCLok3KL/vGlAfjGEmIBM=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>58UFl1eVb36Ec9KptnIbzhwxExRJzTfVtJU8cElQpJNcc8FGdT79ESJh71LqD9ksfkTS9/8HbIsJvFdZBNr8Wv2yxfznpfwnPTB1l4HTpWNWQOUfZNUsyudrPyVQnW0uIjc8IMPZdXg0crMfcGvY15ACXF0sIHOj5UKXhhRlBQIOjPsUlFmESHKZ8UqnDHWuAfz9DTA8o0tv0lZytRTRf2VqxOOjMq9VsGqDoGnwEv71yTegn/GJb7LEmOvGM/mjX8X2eYX+Fp7ntJu9N3UlIPXCubmW7Ct4M173oPyeeSPSVnUbNhGg+oKxGxx1//HDDzLG8Z7kfr0FWnsvhPVZ1Q==</SignatureValue>
+<KeyInfo>
+<X509Data>
+<X509IssuerSerial>
+<X509IssuerName>CN=The Clearing House Enterprise Issuing CA 1, O=The Clearing House Payments Company, C=US</X509IssuerName>
+<X509SerialNumber>303111756915795778601924</X509SerialNumber>
+</X509IssuerSerial>
+<X509SubjectName>CN=demo.tchbt.tchrtp.org,OU=Technology Integration Management,O=The Clearing House Payments Company LLC,L=New York,S=New York,C=US</X509SubjectName>
+</X509Data>
+</KeyInfo>
+</Signature>
+</head:Sgntr>
+</AppHdr>
+<EchoResponse>
+<re:AdmnEchoResp>
+<re:GrpHdr>
+<re:MsgId>20251113122053021150706P10000006659</re:MsgId>
+<re:CreDtTm>2025-11-13T07:20:53-05:00</re:CreDtTm>
+</re:GrpHdr>
+<re:EchoResponse>
+<re:InstgAgt>
+<re:FinInstnId>
+<re:ClrSysMmbId>
+<re:MmbId>021150706P1</re:MmbId>
+</re:ClrSysMmbId>
+</re:FinInstnId>
+</re:InstgAgt>
+<re:InstdAgt>
+<re:FinInstnId>
+<re:ClrSysMmbId>
+<re:MmbId>021040079P1</re:MmbId>
+</re:ClrSysMmbId>
+</re:FinInstnId>
+</re:InstdAgt>
+<re:OrgnlInstrId>20251113021040079P1B07900000007037</re:OrgnlInstrId>
+<re:FnctnCd>731</re:FnctnCd>
+<re:TxSts>ACTC</re:TxSts>
+</re:EchoResponse>
+</re:AdmnEchoResp>
+</EchoResponse>
+</Message>

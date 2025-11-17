@@ -9,10 +9,7 @@
 		<classes>
 			<class name="com.test.LoginTest" />
 			<class name="IndividualFlows.TCHBatchTest" />
-	<!--  		<class name="IndividualFlows.Reports_AccountReportingTCH" />
-			<class name="IndividualFlows.Reports_RetrivalRequestTCH" />
-			<class name="IndividualFlows.Reports_BroadcastMessagesTCH" />
-			<class name="IndividualFlows.Reports_ParticipantFileTCH" />-->
+	  		<class name="IndividualFlows.Reports_AdministrationRequestTCH" />
 			<class name="IndividualFlows.TCH_ExecutionsSummary" />
 		</classes>
 	</test> 

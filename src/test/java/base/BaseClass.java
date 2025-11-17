@@ -55,10 +55,7 @@ import com.configure.Factory;
 import com.pages.BatchPage;
 import com.pages.ExecutionsSummaryPage;
 import com.pages.LoginPage;
-import com.pages.Reports_AccountReportingPage;
-import com.pages.Reports_BroadcastMessagesPage;
-import com.pages.Reports_ParticpantFilePage;
-import com.pages.Reports_RetrivalRequestPage;
+import com.pages.Reports_AdministrationRequestPage;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -75,11 +72,8 @@ public class BaseClass {
 	public static JavascriptExecutor js;
 	public static LoginPage logintest;
 	public static BatchPage batchpage;
-	public static Reports_AccountReportingPage acreport;
+	public static Reports_AdministrationRequestPage acreport;
 //	public static Reports_Fedwire_AccountReportingPage FWacreport;
-	public static Reports_BroadcastMessagesPage bmreport;
-	public static Reports_RetrivalRequestPage RRreport;
-	public static Reports_ParticpantFilePage PFreport;
 	public static ExecutionsSummaryPage exectuionpage;
 
 	public BaseClass() {
